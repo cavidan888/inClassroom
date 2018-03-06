@@ -1,0 +1,194 @@
+
+            //string[] names1 = new string[] {"Zohrali" , "Mirzamin" , "Vilayet" , "Dan dan Aydan" , "Oqtay" , "Cav Cav"};
+            //string[] names2 = new string[] { "Zohrali", "Oqtay", "Cav Cav" };
+
+            //for (int i = 0; i < names1.Length; i++)
+            //{
+            //    for (int i2 = 0; i2 < names2.Length; i2++)
+            //    {
+            //        if (names1[i] == names2[i])
+            //        {
+            //            Console.WriteLine(names2[i2]);
+            //        }
+            //    }
+
+
+            //}
+
+            //    int[] yaslar = new int[5];
+
+            //    for (int i = 0; i < yaslar.Length; i++)
+            //    {
+            //        Console.WriteLine(i + "- inci deyerini daxil edin");
+            //        var yas = Convert.ToInt32(Console.ReadLine());
+            //        yaslar[i] = yas;
+
+            //    }
+
+
+            //    foreach (var item in yaslar)
+            //    {
+            //        Console.WriteLine(item);
+            //    }
+
+
+            //    var cem = 0;
+
+            //    foreach (var item in yaslar)
+            //    {
+
+            //        cem = cem + item;
+
+            //    }
+            //    Console.WriteLine("ortalama " + (cem / yaslar.Length));
+            //}
+
+
+            //string[] ad = new string[5];
+            //string[] soyAd = new string[5];
+
+
+
+            //for (int i = 0; i < ad.Length; i++)
+            //{
+            //    Console.WriteLine(i+ "telebenin adini yazin");
+            //    var name = Console.ReadLine();
+            //    ad[i] = name;
+
+
+
+            //    Console.WriteLine(i + " telebenin soyAdini yazin");
+            //    var surName = Console.ReadLine();
+            //    soyAd[i] = surName;
+
+
+
+            //}
+
+
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.WriteLine((i+1) + "." + ad[i] + " - " + soyAd[i]);
+            //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Eded Daxil Edin");
+                var eded = Convert.ToInt32(Console.ReadLine());
+                cutTek(eded);
+
+                void cutTek(int _eded)
+                {
+
+                    if (_eded % 2 == 0)
+                    {
+                        Console.WriteLine("eded cutdur");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Eded Tekdir");
+                    }
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+            var cem = 0;
+
+            void topla()
+            {
+
+                for (int i = 0; i < 500; i++)
+                {
+                    if (i % 3 == 0)
+                    {
+                        cem = cem + i;
+
+                    }
+
+                }
+
+                Console.WriteLine(cem);
+            }
+
+            topla();
+
+
+
+            Console.WriteLine("Ededi Daxil Edin");
+            var sEded = Convert.ToInt32(Console.ReadLine());
+            sadeEded(sEded);
+
+            void sadeEded(int _sadeEded)
+            {
+                for (int i = 0; i < _sadeEded; i++)
+                {
+                    if (i % _sadeEded  == 0)
+                    {
+                        Console.WriteLine("ssss");
+                    }
+                }
+            }
+
+
+
+            int result = 0;
+
+            void yoxla()
+            {
+                for (int i = 0; i < 1500; i++)
+                {
+                    if (i / 1 == 0)
+                    {
+                        Console.WriteLine("Sade Ededler " + i);
+                        result = result + i;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Sade Olmayan Ededler " + i);
+                    }
+                }
+                Console.WriteLine("Ededlerin Cemi " + result);
+            }
+
+            yoxla();
+
+
+
+
+
